@@ -1,6 +1,6 @@
 # Simple-Calculator--GUI
 
-the program is a basic calculator but it has a Graphical User Interface. I used Scene builder to help me deign the GUI and was able to use NetBeans IDE to run the finished product. 
+the program is a basic calculator programmed in Java but it also has a Graphical User Interface. I used Scene builder to help me deign the GUI and was able to use NetBeans IDE to run the finished product. 
 
 
 Below is an image of the GUI adding 1+1: 
