@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="188.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.csc262.supercalculator.SuperCalculatorController">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="174.0" prefHeight="77.0" prefWidth="288.0" text="SUPER CALCULATOR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="firstNumberLabel" layoutX="14.0" layoutY="50.0" prefHeight="27.0" prefWidth="83.0" text="Number 1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstNumberTextField" layoutX="97.0" layoutY="50.0" prefHeight="27.0" prefWidth="83.0" />
+      <TextField fx:id="secondNumberTextField" focusTraversable="false" layoutX="282.0" layoutY="50.0" prefHeight="27.0" prefWidth="83.0" />
+      <TextField fx:id="ReultText" editable="false" focusTraversable="false" layoutX="446.0" layoutY="50.0" prefHeight="27.0" prefWidth="83.0" />
+      <Button fx:id="ExitButton" layoutX="274.0" layoutY="140.0" maxHeight="36.0" maxWidth="225.0" minHeight="16.0" minWidth="20.0" mnemonicParsing="false" onAction="#ExitButtonPressed" prefHeight="36.0" prefWidth="83.0" text="Exit" />
+      <Label fx:id="SecondNumberLabel" layoutX="193.0" layoutY="50.0" prefHeight="27.0" prefWidth="83.0" text="Number 2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="ClearButton" layoutX="139.0" layoutY="140.0" maxHeight="36.0" maxWidth="150.0" minHeight="16.0" minWidth="20.0" mnemonicParsing="false" onAction="#clearButtonPressed" prefHeight="36.0" prefWidth="108.0" text="Clear" textOverrun="CLIP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="SubtractButton" layoutX="155.0" layoutY="95.0" maxHeight="36.0" maxWidth="100.0" minHeight="16.0" minWidth="20.0" mnemonicParsing="false" onAction="#subButtonPressed" prefHeight="36.0" prefWidth="95.0" text="Subtract" />
+      <Button fx:id="AddButton" layoutX="56.0" layoutY="95.0" maxHeight="36.0" maxWidth="100.0" minHeight="16.0" minWidth="20.0" mnemonicParsing="false" onAction="#addButtonPressed" prefHeight="36.0" prefWidth="75.0" text="Add" />
+      <Button fx:id="MultiplyButton" layoutX="276.0" layoutY="95.0" maxHeight="71.0" maxWidth="159.0" minHeight="16.0" minWidth="20.0" mnemonicParsing="false" onAction="#multButtonPressed" prefHeight="36.0" prefWidth="95.0" text="Multiply" />
+      <Button fx:id="DivideButton" layoutX="395.0" layoutY="95.0" maxHeight="36.0" maxWidth="100.0" minHeight="16.0" minWidth="20.0" mnemonicParsing="false" onAction="#divideButtonPressed" prefHeight="36.0" prefWidth="75.0" text="Divide" />
+      <Label fx:id="Result" layoutX="379.0" layoutY="50.0" prefHeight="27.0" prefWidth="63.0" text="Result">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
